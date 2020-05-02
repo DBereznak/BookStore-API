@@ -12,6 +12,11 @@ using BookStore_API.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.OpenApi.Models;
+using System.Reflection;
+using System.IO;
+using BookStore_API.Contracts;
+using BookStore_API.Services;
 
 namespace BookStore_API
 {
@@ -32,6 +37,23 @@ namespace BookStore_API
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+
+            // Adding Cors Policy
+            services.AddCors(o =>
+            {
+                o.AddPolicy("CorsPolicy", builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+            });
+            //Swagger Service Configuration
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Book Store API", Version = "v1", Description = "Book Store API" });
+
+                var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                var path = Path.Combine(AppContext.BaseDirectory, xmlFile);
+                c.IncludeXmlComments(path);
+            });
+
+            services.AddSingleton<ILoggerService, LoggerService>();
             services.AddControllers();
         }
 
@@ -50,8 +72,16 @@ namespace BookStore_API
                 app.UseHsts();
             }
 
+            app.UseSwagger();
+            app.UseSwaggerUI( c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Book Store API");
+                c.RoutePrefix = "";
+            });
+
             app.UseHttpsRedirection();
 
+            app.UseCors("CorsPolicy");
             app.UseRouting();
 
             app.UseAuthentication();

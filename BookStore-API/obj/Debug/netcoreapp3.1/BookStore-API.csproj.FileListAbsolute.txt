@@ -134,6 +134,14 @@ F:\Projects\Udemy\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\ru\Microso
 F:\Projects\Udemy\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 F:\Projects\Udemy\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 F:\Projects\Udemy\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Projects\Udemy\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+F:\Projects\Udemy\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+F:\Projects\Udemy\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\Projects\Udemy\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\Projects\Udemy\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\BookStore-API.xml
+F:\Projects\Udemy\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\nlog.config
+F:\Projects\Udemy\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.dll
+F:\Projects\Udemy\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
 F:\Projects\Udemy\BookStore-API\BookStore-API\obj\Debug\netcoreapp3.1\BookStore-API.csproj.CoreCompileInputs.cache
 F:\Projects\Udemy\BookStore-API\BookStore-API\obj\Debug\netcoreapp3.1\BookStore-API.MvcApplicationPartsAssemblyInfo.cs
 F:\Projects\Udemy\BookStore-API\BookStore-API\obj\Debug\netcoreapp3.1\BookStore-API.MvcApplicationPartsAssemblyInfo.cache
