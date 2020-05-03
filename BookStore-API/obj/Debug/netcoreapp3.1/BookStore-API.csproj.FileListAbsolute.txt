@@ -142,6 +142,8 @@ F:\Projects\Udemy\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\BookStore-
 F:\Projects\Udemy\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\nlog.config
 F:\Projects\Udemy\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.dll
 F:\Projects\Udemy\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+F:\Projects\Udemy\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\AutoMapper.dll
+F:\Projects\Udemy\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 F:\Projects\Udemy\BookStore-API\BookStore-API\obj\Debug\netcoreapp3.1\BookStore-API.csproj.CoreCompileInputs.cache
 F:\Projects\Udemy\BookStore-API\BookStore-API\obj\Debug\netcoreapp3.1\BookStore-API.MvcApplicationPartsAssemblyInfo.cs
 F:\Projects\Udemy\BookStore-API\BookStore-API\obj\Debug\netcoreapp3.1\BookStore-API.MvcApplicationPartsAssemblyInfo.cache
