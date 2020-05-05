@@ -1,11 +1,10 @@
 ﻿using BookStore_API.Contracts;
-using Microsoft.Extensions.Logging;
 using NLog;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using ILogger = NLog.ILogger;
+
 
 namespace BookStore_API.Services
 {

@@ -160,9 +160,10 @@ namespace BookStore_API.Controllers
             }
         }
 
+        /// <summary>
+        /// Deletes Author
         /// </summary>
         /// <param name="id"></param>
-        /// <param name="authorDTO"></param>
         /// <returns></returns>
         [HttpDelete("{id}")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
